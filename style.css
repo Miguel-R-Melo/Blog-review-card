@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 20em;
+    height: 25em;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    width: 18em;
+    height: 25em;
+    margin: auto;
+}
+
+#img-main{
+    display: inline-block;
+    width: 18em;
+    height: 13em;
+    margin: 0 auto;
+}
+
+.status{
+    width: 5em;
+    height: 2em;
+    margin:  start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    font-family:  "Figtree";
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+}
