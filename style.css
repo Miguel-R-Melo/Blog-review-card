@@ -61,6 +61,11 @@ h1{
     font:  900 large "Figtree";
 }
 
+h1:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
 #txt{
     margin: start;
     font-family:  "Figtree";
@@ -83,4 +88,9 @@ h1{
 #name{
     font-weight: bold;
     font-family:  "Figtree";
+}
+
+#name:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
 }
